@@ -21,7 +21,7 @@ const ResultSection = () => {
       </p>
       <div className="w-full bg-slate-900 h-fit border-t-4 border-lime rounded-tl-lg rounded-tr-lg rounded-b-md p-7">
         <h2 className="text-slate-400 mb-3">Your monthly repayments</h2>
-        <p className="text-4xl md:text-6xl text-lime font-bold">
+        <p className="text-4xl lg:text-6xl text-lime font-bold">
           {formatCurrency(monthlyPayment)}
         </p>
         <hr className="my-6 border-slate-700" />
