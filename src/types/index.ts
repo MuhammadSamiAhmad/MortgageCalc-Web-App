@@ -1,7 +1,7 @@
 export type FormValues = {
-  mortgageAmount: string;
-  interestRate: string;
-  mortgageTerm: string;
+  mortgageAmount: number;
+  interestRate: number;
+  mortgageTerm: number;
   mortgageType: string | null;
 };
 

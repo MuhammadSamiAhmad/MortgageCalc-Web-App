@@ -79,9 +79,9 @@ const FormSection = () => {
   const form = useForm<FormValues>({
     resolver: zodResolver(schema),
     defaultValues: {
-      mortgageAmount: "",
-      interestRate: "",
-      mortgageTerm: "",
+      mortgageAmount: 0,
+      interestRate: 0,
+      mortgageTerm: 0,
       mortgageType: null, // For the radio buttons
     },
   });
