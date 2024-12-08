@@ -1,8 +1,8 @@
 export type FormValues = {
-  mortgageAmount: number;
-  interestRate: number;
-  mortgageTerm: number;
-  mortgageType: string;
+  mortgageAmount: string;
+  interestRate: string;
+  mortgageTerm: string;
+  mortgageType: string | null;
 };
 
 export type MortgageStore = {
